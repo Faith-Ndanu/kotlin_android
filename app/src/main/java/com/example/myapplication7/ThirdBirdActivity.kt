@@ -29,6 +29,7 @@ class ThirdBirdActivity : AppCompatActivity() {
         }
         Picasso.get()
             .load("https://media.istockphoto.com/id/185262775/photo/rufous-hummingbird-male-white-background.webp?b=1&s=170667a&w=0&k=20&c=PUEg6K-lZPdzlnoIL0-QZdmHzUPW_h1H1QsFS_Us1us=")
+            .resize(1500,1000)
             .into(binding.imageView4)
     }
 }

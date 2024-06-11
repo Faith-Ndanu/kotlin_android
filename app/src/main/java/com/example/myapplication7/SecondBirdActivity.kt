@@ -28,6 +28,7 @@ class SecondBirdActivity : AppCompatActivity() {
         }
         Picasso.get()
         .load("https://media.istockphoto.com/id/1461425620/photo/american-white-ibis.webp?b=1&s=170667a&w=0&k=20&c=cmGdrj888MpSLDhfX75T5MjvfrEefmfE25BSQeu2I-E=")
+            .resize(1500,1000)
         .into(binding.imageView2)
         }
         }
