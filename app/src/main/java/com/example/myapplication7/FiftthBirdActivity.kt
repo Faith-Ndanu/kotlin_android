@@ -22,9 +22,7 @@ class FiftthBirdActivity : AppCompatActivity() {
             finish()
         }
         Picasso.get()
-            .load("https://images.unsplash.com/photo-1558705111-19dbbfedaf24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D")
-            .fit()
-
+            .load("https://images.unsplash.com/photo-1620589919696-6b0d48614586?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D")
             .into(binding.imageView8)
     }
 }
